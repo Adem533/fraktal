@@ -2,7 +2,7 @@
 
 <html lang="en">
 <head>
-	<title>Explore the Mandelbrot set || Fractex</title>
+	<title>Explore the Mandelbrot set || Fractal</title>
 
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" />
 	<link rel="stylesheet" type="text/css" href="css/style.min.css" />
@@ -25,7 +25,7 @@
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="mandel.html">Mandelbrot</a></li>
-				<li><a href="julia.html">Julia-Fractal</a></li>
+				<li><a href="julia.html">Julia-Fraktal</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -37,20 +37,19 @@
 
 				<div id="overlay">
 					<p>
-						Your generated Mandelbrot will be displayed here. After choosing your theme on the
-						right, you can click the button underneath to draw your Mandelbrot.<br />
+						Oluşturduğunuz Mandelbrot burada gösterilecektir. Sağdaki temanızı seçtikten sonra, Mandelbrot'unuzu çizmek için alttaki düğmeye tıklayabilirsiniz.<br />
 						<br />
-						<button id="mandel_draw">Draw your mandelbrot</button>
+						<button id="mandel_draw">çizin mandelbrot</button>
 					</p>
 				</div>
 
 				<div id="control">
-					<button id="mandel_move_left">Left</button>
-					<button id="mandel_move_right">Right</button>
-					<button id="mandel_move_up">Up</button>
-					<button id="mandel_move_down">Down</button>
-					<button id="mandel_zoom_in">Zoom In</button>
-					<button id="mandel_zoom_out">Zoom Out</button>
+					<button id="mandel_move_left">sol</button>
+					<button id="mandel_move_right">sağ</button>
+					<button id="mandel_move_up">yukarı</button>
+					<button id="mandel_move_down">aşşağı</button>
+					<button id="mandel_zoom_in">yakınlaş</button>
+					<button id="mandel_zoom_out">uzaklaş</button>
 					<button id="mandel_reset">Reset</button>
 				</div>
 			</div>
@@ -64,12 +63,12 @@
 			<section class="box">
 				<h3>Theme</h3>
 				<p>
-					<label for="mandel_theme">Choose your favourite one:</label>
+					<label for="mandel_theme">renk seç:</label>
 
 					<select id="mandel_theme" size="1">
-						<option value="1" selected="selected">Red</option>
-						<option value="2">Blue</option>
-						<option value="3">Green</option>
+						<option value="1" selected="selected">kırmızı</option>
+						<option value="2">mavi</option>
+						<option value="3">yeşil</option>
 					</select>
 				</p>
 			</section>
@@ -87,12 +86,4 @@
 		</aside>
 	</main>
 
-	<footer id="footer">
-		<p>
-			&copy; 2017, Fractex created by Tobias W.<br />
-			See <a href="https://github.com/tobi18991/Fractex" target="_blank">GitHub Repository</a> for further
-			information.
-		</p>
-	</footer>
-</body>
-</html>
+	
